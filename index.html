@@ -10,48 +10,48 @@
     <title>Frontend Mentor | Calculator app</title>
   </head>
   <body>
-
-    <div class="wrapper">
-      <div class="header">
-        <div class="calc-text">calc</div>
-        <div class="theme-toggle">
-          <div class="theme-numbers">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-          </div>
-          <div class="theme-text">THEME</div>
-          <div class="toggle">
-            <div class="toggle-indicator"></div>
+    <main>
+      <div class="wrapper">
+        <div class="header">
+          <div class="calc-text">calc</div>
+          <div class="theme-toggle">
+            <div class="theme-numbers">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="theme-text">THEME</div>
+            <div class="toggle">
+              <div class="toggle-indicator"></div>
+            </div>
           </div>
         </div>
+        <div class="display">
+          <div class="expression"></div>
+          <div class="answer"></div>
+        </div>
+        <div class="keypad">
+          <button data-number="7">7</button>
+          <button data-number="8">8</button>
+          <button data-number="9">9</button>
+          <button id="del">DEL</button>
+          <button data-number="4">4</button>
+          <button data-number="5">5</button>
+          <button data-number="6">6</button>
+          <button data-operation="+">+</button>
+          <button data-number="1">1</button>
+          <button data-number="2">2</button>
+          <button data-number="3">3</button>
+          <button data-operation="-">-</button>
+          <button data-number=".">.</button>
+          <button data-number="0">0</button>
+          <button data-operation="/">/</button>
+          <button data-operation="*">x</button>
+          <button id="reset" class="span-two">RESET</button>
+          <button id="equals" class="span-two">=</button>
+        </div>
       </div>
-      <div class="display">
-        <div class="expression"></div>
-        <div class="answer"></div>
-      </div>
-      <div class="keypad">
-        <button data-number="7">7</button>
-        <button data-number="8">8</button>
-        <button data-number="9">9</button>
-        <button id="del">DEL</button>
-        <button data-number="4">4</button>
-        <button data-number="5">5</button>
-        <button data-number="6">6</button>
-        <button data-operation="+">+</button>
-        <button data-number="1">1</button>
-        <button data-number="2">2</button>
-        <button data-number="3">3</button>
-        <button data-operation="-">-</button>
-        <button data-number=".">.</button>
-        <button data-number="0">0</button>
-        <button data-operation="/">/</button>
-        <button data-operation="*">x</button>
-        <button id="reset" class="span-two">RESET</button>
-        <button id="equals" class="span-two">=</button>
-      </div>
-    </div>
-    
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
